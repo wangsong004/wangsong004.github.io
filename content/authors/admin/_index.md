@@ -56,7 +56,7 @@ education:
   - area: BSc Mechanical Engineering
     institution: Anhui University of Science and Technology
     date_start: 2009-09-01
-    date_end: 2013-06-31
+    date_end: 2013-06-30
     summary: |
 work:
   - position: Director of Cloud Infrastructure
