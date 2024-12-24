@@ -158,4 +158,4 @@ awards:
 
 ## About Me
 
-I am the Director of R&D and Cofounder at VoxelDance, where I am primarily responsible for algorithms related to geometry processing and implicit modeling. Prior to this, I worked as a Geometry Algorithm Engineer at UnionTech for three years. Earlier, in 2016, I obtained a Master's degree in Mechanical Engineering from Nanjing University of Aeronautics and Astronautics.
+I am the Director of R&D and Cofounder at VoxelDance, where I focus primarily on algorithms for geometry processing and implicit modeling. Prior to this, I worked as a Geometry Algorithm Engineer at UnionTech for three years. In 2016, I earned a Master’s degree in Mechanical Engineering from Nanjing University of Aeronautics and Astronautics.
