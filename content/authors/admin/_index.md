@@ -158,5 +158,4 @@ awards:
 
 ## About Me
 
-I graduated with a master's degree from Nanjing University of Aeronautics and Astronautics in 2016 and have since been dedicated to algorithm research in the field of geometry processing. My expertise lies in the generation, editing, and optimization of triangular meshes, with a primary focus on applications in 3D printing.  
-Currently, I am the R&D Director at VoxelDance, where I lead a team to develop innovative algorithms. I am also deeply interested in implicit modeling, actively exploring its related technologies and applying them to practical production and real-world scenarios.  
+I am the Director of R&D and Cofounder at VoxelDance, where I am primarily responsible for algorithms related to geometry processing and implicit modeling. Prior to this, I worked as a Geometry Algorithm Engineer at UnionTech for three years. Earlier, in 2016, I obtained a Master's degree in Mechanical Engineering from Nanjing University of Aeronautics and Astronautics.
