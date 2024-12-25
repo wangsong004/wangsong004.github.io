@@ -35,7 +35,9 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Throughout my career, I have specialized in the field of geometry processing, with a particular focus on geometric algorithms pertaining triangle meshes. My expertise encompasses a range of algorithms, including model repair, Boolean operations, shell offsetting, and nesting algorithms for the efficient placement of 3D models in 2D, 2.5D, and 3D spaces. I have also conducted research into optimization algorithms for dental models, specifically in the areas of crown orientation and RPD bracket direction optimization. At present, my primary interest is in the realm of implicit modeling. This includes developing algorithms for converting implicit models into triangle mesh representations, as well as exploring slicing algorithms for implicit models and the voxelization of these models.
+        Throughout my career, I have specialized in the field of geometry processing, with a particular focus on geometric algorithms pertaining triangle meshes. My expertise encompasses a range of algorithms, including model repair, Boolean operations, shell offsetting, and nesting algorithms for the efficient placement of 3D models in 2D, 2.5D, and 3D spaces. I have also conducted research into optimization algorithms for dental models, specifically in the areas of crown orientation and RPD bracket direction optimization.
+          
+        At present, my primary interest is in the realm of implicit modeling. This includes developing algorithms for converting implicit models into triangle mesh representations, as well as exploring slicing algorithms for implicit models and the voxelization of these models.
         
         Please reach out to collaborate 😃
     design:
