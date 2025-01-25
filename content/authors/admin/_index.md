@@ -66,8 +66,14 @@ social:
 #email: ""
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am the Director of R&D and Cofounder at VoxelDance, where I focus primarily on algorithms for geometry processing and implicit modeling. Prior to this, I worked as a Geometry Algorithm Engineer at UnionTech for three years. In 2016, I earned a Master’s degree in Mechanical Engineering from Nanjing University of Aeronautics and Astronautics.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I specialize in geometry processing, with extensive experience in developing and optimizing algorithms for triangle meshes. My expertise spans model repair, Boolean operations, shell offsetting, remeshing, mesh simplification, subdivision, smoothing, and nesting techniques for efficiently placing 3D models in 2D, 2.5D, and 3D spaces. 
+
+Additionally, I have conducted research on optimization algorithms for dental applications, including crown orientation, RPD bracket direction optimization, and algorithms for adding labels to dental models.
+
+Currently, my interests extend to implicit modeling and advanced methods for converting triangle mesh models into tetrahedral meshes.
+
+If you’re interested in collaboration or exchanging ideas, feel free to reach out! 😃
 
 {{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.
