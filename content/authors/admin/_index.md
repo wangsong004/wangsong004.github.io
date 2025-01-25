@@ -18,7 +18,7 @@ organizations:
   url: https://voxeldance.com/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Computer Graphics, geometry processing and implicit modeling.
+bio: My research interests include Computer Graphics, digital geometry processing and implicit modeling.
 
 #interests:
 #- Artificial Intelligence
