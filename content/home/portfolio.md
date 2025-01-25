@@ -28,12 +28,12 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Machine Learning
-      tag: ML
-    - name: Computer Vision
-      tag: CV
-    - name: NLP
-      tag: NLP
+    - name: Nesting
+      tag: Nest
+    - name: Geometry Processing
+      tag: GP
+    - name: Implicit Modeling
+      tag: IM
 
 design:
   columns: '1'
