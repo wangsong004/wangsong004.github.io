@@ -38,7 +38,7 @@ experience:
     company_logo: org-x
     location: Huainan 
     date_start: '2009-09-01'
-    date_end: '2013-06-31'
+    date_end: '2013-06-30'
     description: Studied the foundational knowledge of mechanical engineering
 
 design:
