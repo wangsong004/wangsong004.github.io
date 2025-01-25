@@ -51,6 +51,9 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/wangsong004
+  - icon: google-scholar
+    icon_pack: fab
+    link: https://github.com/wangsong004
 # Uncomment below for Github link
 #- icon: github
 #  icon_pack: fab
