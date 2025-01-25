@@ -1,24 +1,24 @@
 ---
 # Display name
-title: Alice Wu (吳恩達)
+title: Song Wang (王松)
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: ''
+role: R&D Director
 
 # Status emoji
 status:
   icon: ☕️
 
 # Organizations/Affiliations
-#organizations:
-#- name: 腾讯
-#  url: ""
+organizations:
+- name:VoxelDance
+  url: https://voxeldance.com/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include Computer Graphics, geometry processing and implicit modeling.
 
 #interests:
 #- Artificial Intelligence
