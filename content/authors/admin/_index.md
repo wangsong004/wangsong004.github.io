@@ -45,9 +45,9 @@ social:
   - icon: envelope
     icon_pack: fas
     link: mailto:wangs@voxeldance.com
-  - icon: twitter
+  - icon: linkedin
     icon_pack: fab
-    link: https://twitter.com/wowchemy
+    link: https://www.linkedin.com/in/song-wang-0a68a6129/
   - icon: github
     icon_pack: fab
     link: https://github.com/wangsong004
