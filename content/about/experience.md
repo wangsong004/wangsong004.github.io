@@ -33,12 +33,12 @@ experience:
         Responsibilities include:
         
         * Mesh Boolean
-        * Mesh Offset
+        * Mesh offset
         * Mesh thicken
-        * Mesh Repair
-        * Mesh 2D Nesting
-        * Mesh 2.5D Nesting
-        * Mesh 3D Nesting
+        * Mesh repair
+        * Mesh 2D nesting
+        * Mesh 2.5D nesting
+        * Mesh 3D nesting
         * Implicit modeling
         * Dental related algorithms
 
