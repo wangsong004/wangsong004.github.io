@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Song Wang (王 松)
+title: Song Wang (王松)
 
 # Is this the primary user of the site?
 superuser: true
@@ -14,7 +14,7 @@ status:
 
 # Organizations/Affiliations
 organizations:
-- name:VoxelDance
+- name: VoxelDance
   url: https://voxeldance.com/
 
 # Short bio (displayed in user profile at end of posts)
