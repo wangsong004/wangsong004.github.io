@@ -48,9 +48,9 @@ social:
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/wowchemy
-  - icon: instagram
+  - icon: github
     icon_pack: fab
-    link: https://instagram.com/geocushen
+    link: https://github.com/wangsong004
 # Uncomment below for Github link
 #- icon: github
 #  icon_pack: fab
