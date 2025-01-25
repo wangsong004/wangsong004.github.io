@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Song Wang (王松)
+title: Song Wang (王 松)
 
 # Is this the primary user of the site?
 superuser: true
