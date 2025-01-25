@@ -53,7 +53,7 @@ social:
     link: https://github.com/wangsong004
   - icon: google-scholar
     icon_pack: fab
-    link: https://github.com/wangsong004
+    link: https://scholar.google.com/citations?user=ET9MLC0AAAAJ&hl=en
 # Uncomment below for Github link
 #- icon: github
 #  icon_pack: fab
