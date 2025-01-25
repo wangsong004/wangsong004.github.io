@@ -76,4 +76,4 @@ Currently, my interests extend to implicit modeling and advanced methods for con
 
 If you’re interested in collaboration or exchanging ideas, feel free to reach out! 😃
 
-# {{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.
+<!--{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.-->
