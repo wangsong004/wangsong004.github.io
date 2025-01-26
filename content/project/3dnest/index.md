@@ -35,3 +35,5 @@ Considering both height and slice distribution helps ensure lower cost and high-
 The sub-nesting feature serves multiple purposes: it prevents small parts from getting lost, protects fragile parts from scraping, and groups parts from different companies. After sub-nesting, users can create Sinterboxes to segregate the parts. For parts from a single company, each Sinterbox can be labeled to explain to operator of it contains. Additionally, Sinterboxes offer protection for parts that are too small or fragile to remove from the powder bed, ensuring their safety during post-processing and shipping.
 
 ![sinterbox](images/sinter_box.png "sinterboxes")
+
+{{< video src="lattice_prop.mp4" controls="yes" >}}
