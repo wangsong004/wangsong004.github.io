@@ -34,6 +34,8 @@ content:
       tag: GP
     - name: Implicit Modeling
       tag: IM
+    - name: Dental
+      tag: Dental
 
 design:
   columns: '1'
