@@ -11,7 +11,7 @@ Nesting is a crucial technique in Powder Bed Fusion technologies like Selective 
 Efficient nesting maximizes cost-effectiveness by densely packing parts within a single build, reducing material waste and production time. By optimizing the placement of parts on the printing bed, nesting allows for the highest number of parts per printing volume in a single run—enhancing both efficiency and material savings.
 
 ## 1.Accelerate the Nesting Process
-Providing quick and accurate nesting results is essential for users, who manage large quantities of parts daily. VDA empowers by its GPU acceleration to expedite the nesting process. With a single click, parts are automatically nested in an optimal way and can be distributed across multiple platforms.
+Providing quick and accurate nesting results is essential for users, who manage large quantities of parts daily. we use GPU acceleration to expedite the nesting process. With a single click, parts are automatically nested in an optimal way and can be distributed across multiple platforms.
 
 ## 2.Different Nesting Methods for Different User Scenarios 
 ### a.Reduce the Height of the Build
