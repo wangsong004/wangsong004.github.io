@@ -10,7 +10,7 @@ role: R&D Director
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🧑‍💻️
 
 # Organizations/Affiliations
 organizations:
@@ -74,11 +74,7 @@ social:
 
 I am the Director of R&D and Cofounder at VoxelDance, where I focus primarily on algorithms for geometry processing and implicit modeling. Prior to this, I worked as a Geometry Algorithm Engineer at UnionTech for three years. In 2016, I earned a Master’s degree in Mechanical Engineering from Nanjing University of Aeronautics and Astronautics.
 
-I specialize in geometry processing, with extensive experience in developing and optimizing algorithms for triangle meshes. My expertise spans model repair, Boolean operations, shell offsetting, remeshing, mesh simplification, subdivision, smoothing, and nesting techniques for efficiently placing 3D models in 2D, 2.5D, and 3D spaces. 
-
-Additionally, I have conducted research on optimization algorithms for dental applications, including crown orientation, RPD bracket direction optimization, and algorithms for adding labels to dental models.
-
-Currently, my interests extend to implicit modeling and advanced methods for converting triangle mesh models into tetrahedral meshes.
+I specialize in geometry processing, focusing on triangle mesh algorithms such as model repair, Boolean operations, shell offsetting, remeshing, simplification, and nesting in 2D, 2.5D, and 3D. My work includes dental model optimization (e.g., crown orientation, RPD bracket direction) and labeling. Currently, I’m exploring implicit modeling and triangle-to-tetrahedral mesh conversion.
 
 If you’re interested in collaboration or exchanging ideas, feel free to reach out! 😃
 
