@@ -57,6 +57,9 @@ social:
   - icon: bilibili
     icon_pack: fab
     link: https://space.bilibili.com/610800557?spm_id_from=333.1387.0.0
+ - icon: weixin
+    icon_pack: fab
+    link: weixin.jpg
 # Uncomment below for Github link
 #- icon: github
 #  icon_pack: fab
