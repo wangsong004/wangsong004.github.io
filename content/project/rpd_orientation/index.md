@@ -1,9 +1,9 @@
 ---
-title: Recommendation Systems
-summary: Write about your project here...
+title: RPD Frameworks Orientation Optimization
+summary: Advanced algorithms enhance the efficiency of flipping RPD frames in data and build preparation.
 tags:
   - DENTAL
-date: 2025-01-026
+date: 2025-01-26
 #external_link: http://github.com
 ---
 Advanced algorithms enhance the efficiency of flipping RPD frames in data and build preparation.

@@ -1,5 +1,5 @@
 ---
-title: Lattice prop generation
+title: Lattice Prop Generation
 summary: Lattice-reinforced structures are easy to add and remove during RPD build and data preparation.
 tags:
   - Dental
