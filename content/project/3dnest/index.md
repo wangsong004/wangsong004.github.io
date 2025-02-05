@@ -36,6 +36,6 @@ The sub-nesting feature serves multiple purposes: it prevents small parts from g
 
 ![sinterbox](images/sinter_box.png "sinterboxes")
 
-The PDF version is available for download: [Download PDF](./3d_nest.pdf)
+The PDF version is available for download: [3d_nest.pdf](./3d_nest.pdf)
 
 
