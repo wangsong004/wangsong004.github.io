@@ -54,9 +54,9 @@ social:
   - icon: google-scholar
     icon_pack: fab
     link: https://scholar.google.com/citations?user=ET9MLC0AAAAJ&hl=en
-  - icon: bilibili
-    icon_pack: fab
-    link: https://space.bilibili.com/610800557?spm_id_from=333.1387.0.0
+  #- icon: bilibili
+   # icon_pack: fab
+   # link: https://space.bilibili.com/610800557?spm_id_from=333.1387.0.0
   - icon: weixin
     icon_pack: ai
     link: weixin.pdf
