@@ -59,7 +59,7 @@ social:
    # link: https://space.bilibili.com/610800557?spm_id_from=333.1387.0.0
   - icon: weixin
     icon_pack: fab
-    link: https://github.com/wangsong004/wangsong004.github.io/blob/main/content/authors/admin/weixin.pdf
+    link: https://drive.google.com/file/d/13_Dr2wy-pXdI3gly-SQZ-PSEcUg4I59-/view?usp=drive_link
 # Uncomment below for Github link
 #- icon: github
 #  icon_pack: fab
