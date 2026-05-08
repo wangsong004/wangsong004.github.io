@@ -16,6 +16,8 @@ organizations:
 # Short bio displayed in author summaries.
 bio: Computer graphics and computational geometry engineer focused on robust mesh processing, nesting, mesh/tetrahedral algorithms, and implicit modeling.
 
+email: "wangs@voxeldance.com"
+
 interests:
   - Computer graphics geometry processing
   - Computational geometry
@@ -26,7 +28,7 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:wangs@voxeldance.com
+    link: "mailto:wangs@voxeldance.com"
   - icon: file-pdf
     icon_pack: fas
     link: /uploads/resume.pdf
@@ -50,4 +52,4 @@ My work centers on triangle-mesh geometry processing. I have worked on mesh simp
 
 Recently, my main interests have been implicit modeling, implicit-to-mesh conversion, and algorithms that bridge mesh representations, volumetric representations, and practical engineering workflows.
 
-Broadly, I am interested in computer graphics geometry processing and computational geometry, and I am open to collaboration or technical conversations in these directions.
+Broadly, I am interested in computer graphics geometry processing and computational geometry, and I am open to collaboration or technical conversations in these directions. You can reach me at [wangs@voxeldance.com](mailto:wangs@voxeldance.com).

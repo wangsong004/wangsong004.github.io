@@ -16,4 +16,4 @@ Hi, I am **Song Wang**, R&D Director and co-founder at VoxelDance.
 
 I work on computer-graphics geometry processing and computational geometry, with a focus on robust mesh algorithms, nesting/placement, tetrahedral conversion, and implicit modeling.
 
-[View resume](/about/) | [Explore projects](#portfolio) | [Email me](mailto:wangs@voxeldance.com)
+[View resume](/about/) | [Explore projects](#portfolio) | [wangs@voxeldance.com](mailto:wangs@voxeldance.com)
