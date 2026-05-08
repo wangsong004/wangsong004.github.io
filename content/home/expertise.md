@@ -23,8 +23,8 @@ design:
     <p>2D, 2.5D, and 3D nesting workflows for SLS and industrial printing, with build-height optimization, slice-area balancing, and part classification.</p>
   </section>
   <section>
-    <h3>Dental Automation</h3>
-    <p>RPD framework orientation, bracket direction optimization, crown orientation, dental labeling, and lattice support generation for repeatable workflows.</p>
+    <h3>Dental Algorithms</h3>
+    <p>Removable Partial Denture (RPD) framework orientation optimization and lattice prop generation, dental crown orientation optimization, and dental crown labeling algorithms.</p>
   </section>
   <section>
     <h3>Implicit Modeling</h3>

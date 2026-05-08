@@ -2,7 +2,7 @@
 
 This repository contains the Hugo Blox source for [wangsong004.github.io](https://wangsong004.github.io/).
 
-The site presents Song Wang's work in geometry processing, additive manufacturing, dental workflow automation, nesting algorithms, and implicit modeling.
+The site presents Song Wang's work in geometry processing, additive manufacturing, targeted dental algorithms, nesting algorithms, and implicit modeling.
 
 ## Structure
 

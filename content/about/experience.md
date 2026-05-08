@@ -19,11 +19,11 @@ experience:
     date_start: '2019-04-01'
     date_end: ''
     description: |2-
-        Lead R&D work for production geometry algorithms used in additive manufacturing and dental workflows.
+        Lead R&D work for production geometry algorithms used in additive manufacturing and targeted dental workflows.
 
         * Built and improved mesh repair, Boolean, offset, thickening, remeshing, and simplification workflows.
         * Developed 2D, 2.5D, and 3D nesting algorithms for industrial printing preparation.
-        * Designed dental automation features for RPD orientation, crown orientation, bracket direction, and labeling.
+        * Developed targeted dental algorithms for Removable Partial Denture (RPD) framework orientation, dental crown orientation, Removable Partial Denture (RPD) framework lattice prop generation, and dental crown labeling.
         * Explored implicit modeling and triangle-to-tetrahedral mesh conversion for next-generation geometry workflows.
 
   - title: Geometry Algorithm Engineer

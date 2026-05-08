@@ -11,7 +11,7 @@ headless: true
 weight: 20
 
 title: 'Selected Projects'
-subtitle: 'A few representative projects across nesting, dental automation, and production geometry processing.'
+subtitle: 'Representative projects across nesting, targeted dental algorithms, and production geometry processing.'
 
 content:
   # Page type to display. E.g. project.
