@@ -44,6 +44,9 @@ social:
   - icon: weixin
     icon_pack: fab
     link: https://drive.google.com/file/d/13_Dr2wy-pXdI3gly-SQZ-PSEcUg4I59-/view?usp=drive_link
+  - icon: bilibili
+    icon_pack: fab
+    link: https://space.bilibili.com/610800557
 ---
 
 I am the Director of R&D and co-founder at VoxelDance, where I work on algorithms for geometry processing, computational geometry, and implicit modeling. Before VoxelDance, I spent three years at UnionTech as a Geometry Algorithm Engineer. I received my master's degree in Mechanical Engineering from Nanjing University of Aeronautics and Astronautics in 2016.
