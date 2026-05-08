@@ -150,3 +150,38 @@ ul.network-icon .big-icon {
 .wg-about .portrait-title h3 {
   font-size: 0.8rem;
 }
+
+.wg-about .article-style + .row {
+  margin-top: 1.25rem;
+}
+
+.wg-about .article-style + .row > .col-md-5 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.wg-about .ul-interests {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  margin-top: 0.65rem;
+  padding-left: 0;
+}
+
+.wg-about .ul-interests li {
+  margin: 0;
+  padding: 0.38rem 0.65rem;
+  border: 1px solid rgba(52, 73, 94, 0.16);
+  border-radius: 6px;
+  background: rgba(41, 98, 255, 0.06);
+  color: #2f3b4a;
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+.dark .wg-about .ul-interests li {
+  background: rgba(187, 222, 251, 0.1);
+  border-color: rgba(255, 255, 255, 0.14);
+  color: rgba(255, 255, 255, 0.88);
+}
