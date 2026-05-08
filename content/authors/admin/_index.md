@@ -8,43 +8,28 @@ superuser: true
 # Role/position
 role: R&D Director
 
-# Status emoji
-status:
-  icon: 🧑‍💻️
-
 # Organizations/Affiliations
 organizations:
-- name: VoxelDance
-  url: https://voxeldance.com/
+  - name: VoxelDance
+    url: https://voxeldance.com/
 
-# Short bio (displayed in user profile at end of posts)
-bio: My research interests include Computer Graphics, digital geometry processing and implicit modeling.
+# Short bio displayed in author summaries.
+bio: Computer graphics and computational geometry engineer focused on robust mesh processing, nesting, mesh/tetrahedral algorithms, and implicit modeling.
 
-#interests:
-#- Artificial Intelligence
-#- Computational Linguistics
-#- Information Retrieval
+interests:
+  - Computer graphics geometry processing
+  - Computational geometry
+  - Robust mesh processing
+  - Nesting and placement algorithms
+  - Implicit modeling and meshing
 
-#education:
-#  courses:
-#  - course: PhD in Artificial Intelligence
-#    institution: Stanford University
-#    year: 2012
-#  - course: MEng in Artificial Intelligence
-#    institution: Massachusetts Institute of Technology
-#    year: 2009
-#  - course: BSc in Artificial Intelligence
-#    institution: Massachusetts Institute of Technology
-#    year: 2008
-
-# Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
   - icon: envelope
     icon_pack: fas
     link: mailto:wangs@voxeldance.com
+  - icon: file-pdf
+    icon_pack: fas
+    link: /uploads/resume.pdf
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/song-wang-0a68a6129/
@@ -54,31 +39,15 @@ social:
   - icon: google-scholar
     icon_pack: fab
     link: https://scholar.google.com/citations?user=ET9MLC0AAAAJ&hl=en
-  #- icon: bilibili
-   # icon_pack: fab
-   # link: https://space.bilibili.com/610800557?spm_id_from=333.1387.0.0
   - icon: weixin
     icon_pack: fab
     link: https://drive.google.com/file/d/13_Dr2wy-pXdI3gly-SQZ-PSEcUg4I59-/view?usp=drive_link
-# Uncomment below for Github link
-#- icon: github
-#  icon_pack: fab
-#  link: https://github.com/gcushen
-
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
-
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-#email: ""
 ---
 
-I am the Director of R&D and Cofounder at VoxelDance, where I focus primarily on algorithms for geometry processing and implicit modeling. Prior to this, I worked as a Geometry Algorithm Engineer at UnionTech for three years. In 2016, I earned a Master’s degree in Mechanical Engineering from Nanjing University of Aeronautics and Astronautics.
+I am the Director of R&D and co-founder at VoxelDance, where I work on algorithms for geometry processing, computational geometry, and implicit modeling. Before VoxelDance, I spent three years at UnionTech as a Geometry Algorithm Engineer. I received my master's degree in Mechanical Engineering from Nanjing University of Aeronautics and Astronautics in 2016.
 
-I specialize in geometry processing, focusing on triangle mesh algorithms such as model repair, Boolean operations, shell offsetting, remeshing, simplification, and nesting in 2D, 2.5D, and 3D. I also work on dental model optimization, including crown orientation optimization, RPD bracket direction optimization, and dental labeling algorithm development. Currently, I am exploring implicit modeling and triangle-to-tetrahedral mesh conversion.
+My work centers on triangle-mesh geometry processing. I have worked on mesh simplification, subdivision, remeshing/reconstruction, shell offsetting and thickening, as well as robust geometric operations such as mesh Boolean operations, model repair, plane cutting/slicing, and other production-oriented geometry kernels. I also develop 2D, 2.5D, and 3D nesting and placement algorithms for additive manufacturing, and have explored triangle-mesh to tetrahedral-mesh conversion.
 
-If you’re interested in collaboration or exchanging ideas, feel free to reach out! 😃
+Recently, my main interests have been implicit modeling, implicit-to-mesh conversion, and algorithms that bridge mesh representations, volumetric representations, and practical engineering workflows.
 
-<!--{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.-->
+Broadly, I am interested in computer graphics geometry processing and computational geometry, and I am open to collaboration or technical conversations in these directions.

@@ -10,8 +10,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 20
 
-title: ''
-subtitle: ''
+title: 'Selected Projects'
+subtitle: 'A few representative projects across nesting, dental automation, and production geometry processing.'
 
 content:
   # Page type to display. E.g. project.
@@ -32,8 +32,6 @@ content:
       tag: Nest
     - name: Geometry Processing
       tag: GP
-    - name: Implicit Modeling
-      tag: IM
     - name: Dental
       tag: Dental
 

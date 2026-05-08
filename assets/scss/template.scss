@@ -79,6 +79,41 @@ ul.network-icon .big-icon {
   margin-bottom: 1em;
 }
 
+.focus-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.focus-grid section {
+  background: #fff;
+  border: 1px solid rgba(52, 73, 94, 0.12);
+  border-radius: 8px;
+  padding: 1rem 1.1rem;
+}
+
+.focus-grid h3 {
+  font-size: 1rem;
+  margin: 0 0 0.45rem;
+}
+
+.focus-grid p {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.dark .focus-grid section {
+  background: rgb(31, 39, 51);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+@media (max-width: 767px) {
+  .focus-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 // Narrower container for Hello World sections (primarily Blank widget content).
 @media (min-width: 1200px) {
   .home-section .container {

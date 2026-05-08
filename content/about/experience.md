@@ -1,26 +1,15 @@
 ---
 # An instance of the Experience widget.
-# Documentation: https://docs.hugoblox.com/page-builder/
 widget: experience
 
-# This file represents a page section.
 headless: true
-
-# Order that this section appears on the page.
 weight: 20
 
 title: Experience
 subtitle:
 
-# Date format for experience
-#   Refer to https://docs.hugoblox.com/customization/#date-format
 date_format: Jan 2006
 
-# Experiences.
-#   Add/remove as many `experience` items below as you like.
-#   Required fields are `title`, `company`, and `date_start`.
-#   Leave `date_end` empty if it's your current employer.
-#   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
   - title: R&D Director
     company: VoxelDance
@@ -30,27 +19,21 @@ experience:
     date_start: '2019-04-01'
     date_end: ''
     description: |2-
-        Responsibilities include:
-        
-        * Mesh Boolean
-        * Mesh offset
-        * Mesh thicken
-        * Mesh repair
-        * Mesh 2D nesting
-        * Mesh 2.5D nesting
-        * Mesh 3D nesting
-        * Implicit modeling
-        * Dental related algorithms
+        Lead R&D work for production geometry algorithms used in additive manufacturing and dental workflows.
 
+        * Built and improved mesh repair, Boolean, offset, thickening, remeshing, and simplification workflows.
+        * Developed 2D, 2.5D, and 3D nesting algorithms for industrial printing preparation.
+        * Designed dental automation features for RPD orientation, crown orientation, bracket direction, and labeling.
+        * Explored implicit modeling and triangle-to-tetrahedral mesh conversion for next-generation geometry workflows.
 
-  - title: Algorithm Engineer
+  - title: Geometry Algorithm Engineer
     company: UnionTech
     company_url: https://www.uniontech3d.com/
     company_logo: org-x
     location: Shanghai
     date_start: '2016-04-01'
     date_end: '2019-03-31'
-    description: Wrote algorithms related to triangular meshes.
+    description: Developed triangular mesh algorithms for 3D printing data preparation and geometry processing workflows.
 
 design:
   columns: '1'

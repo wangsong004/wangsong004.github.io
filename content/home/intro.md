@@ -9,16 +9,11 @@ headless: true
 weight: 10
 
 author: admin
-#design:
-#  background:
-#    color: '#090a0b'
-#    text_color_light: true
-#    video:
-#      path:  # enter filename of a video in /assets/media
-#  css_class: fullscreen
 ---
 
-👋 Hi, there! I'm **Song Wang**, R&D Director at VoxelDance.
+Hi, I am **Song Wang**, R&D Director and co-founder at VoxelDance.
 {style="font-size: 1.2rem; background: #FFB76B; background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"}
 
-Check out my [resumé](/about/) and portfolio below 😍
+I work on computer-graphics geometry processing and computational geometry, with a focus on robust mesh algorithms, nesting/placement, tetrahedral conversion, and implicit modeling.
+
+[View resume](/about/) | [Explore projects](#portfolio) | [Email me](mailto:wangs@voxeldance.com)
