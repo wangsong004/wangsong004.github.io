@@ -29,9 +29,6 @@ social:
   - icon: envelope
     icon_pack: fas
     link: "mailto:wangs@voxeldance.com"
-  - icon: file-pdf
-    icon_pack: fas
-    link: /uploads/resume.pdf
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/song-wang-0a68a6129/
