@@ -16,7 +16,7 @@ design:
 <div class="focus-grid">
   <section>
     <h3>Geometry Kernel</h3>
-    <p>Triangle-mesh simplification, subdivision, remeshing/reconstruction, Boolean operations, model repair, shell offsetting, thickening, and plane cutting/slicing.</p>
+    <p>Triangle-mesh simplification, subdivision, remeshing/reconstruction, Boolean operations, model repair, mesh offsetting, thickening, and plane cutting.</p>
   </section>
   <section>
     <h3>Additive Manufacturing</h3>
