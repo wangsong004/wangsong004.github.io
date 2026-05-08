@@ -22,7 +22,7 @@ interests:
   - Computer graphics geometry processing
   - Computational geometry
   - Robust mesh processing
-  - Nesting and placement algorithms
+  - Nesting and packing algorithms
   - Implicit modeling and meshing
 
 social:
@@ -48,7 +48,7 @@ social:
 
 I am the Director of R&D and co-founder at VoxelDance, where I work on algorithms for geometry processing, computational geometry, and implicit modeling. Before VoxelDance, I spent three years at UnionTech as a Geometry Algorithm Engineer. I received my master's degree in Mechanical Engineering from Nanjing University of Aeronautics and Astronautics in 2016.
 
-My work centers on triangle-mesh geometry processing. I have worked on mesh simplification, subdivision, remeshing/reconstruction, shell offsetting and thickening, as well as robust geometric operations such as mesh Boolean operations, model repair, plane cutting/slicing, and other production-oriented geometry kernels. I also develop 2D, 2.5D, and 3D nesting and placement algorithms for additive manufacturing, and have explored triangle-mesh to tetrahedral-mesh conversion.
+My work centers on triangle-mesh geometry processing. I have worked on mesh simplification, subdivision, remeshing/reconstruction, mesh offsetting and thickening, as well as robust geometric operations such as mesh Boolean operations, model repair, plane cutting, and other production-oriented geometry kernels. I also develop 2D, 2.5D, and 3D nesting and packing algorithms for additive manufacturing, and have explored triangle-mesh to tetrahedral-mesh conversion.
 
 Recently, my main interests have been implicit modeling, implicit-to-mesh conversion, and algorithms that bridge mesh representations, volumetric representations, and practical engineering workflows.
 
