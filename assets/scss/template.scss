@@ -108,6 +108,34 @@ ul.network-icon .big-icon {
   border-color: rgba(255, 255, 255, 0.12);
 }
 
+.exploration-copy {
+  font-size: 0.98rem;
+  line-height: 1.75;
+  margin-bottom: 0.85rem;
+}
+
+.exploration-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.exploration-tags span {
+  border: 1px solid rgba(52, 73, 94, 0.16);
+  border-radius: 6px;
+  background: rgba(255, 183, 107, 0.16);
+  color: #2f3b4a;
+  font-size: 0.88rem;
+  line-height: 1.35;
+  padding: 0.38rem 0.65rem;
+}
+
+.dark .exploration-tags span {
+  background: rgba(255, 183, 107, 0.14);
+  border-color: rgba(255, 255, 255, 0.14);
+  color: rgba(255, 255, 255, 0.88);
+}
+
 @media (max-width: 767px) {
   .focus-grid {
     grid-template-columns: 1fr;
