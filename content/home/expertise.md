@@ -27,7 +27,7 @@ design:
     <p>Removable Partial Denture (RPD) framework orientation optimization and lattice prop generation, dental crown orientation optimization, and dental crown labeling algorithms.</p>
   </section>
   <section>
-    <h3>Implicit Modeling</h3>
-    <p>Implicit modeling, implicit-to-mesh conversion, triangle-to-tetrahedral mesh conversion, and practical geometry tools that connect research ideas to engineering products.</p>
+    <h3>Mesh and Volume Workflows</h3>
+    <p>Triangle-to-tetrahedral conversion, mesh-volume data exchange, and practical geometry tools that carry research ideas into engineering products.</p>
   </section>
 </div>
