@@ -1,1 +1,57 @@
 <script defer src="https://api.tssl.cc/busuanzi/3.6.9/busuanzi.min.js"></script>
+<script>
+  (() => {
+    const emailLinks = document.querySelectorAll('a[href^="mailto:"]');
+
+    const copyText = async (text) => {
+      if (navigator.clipboard && window.isSecureContext) {
+        await navigator.clipboard.writeText(text);
+        return;
+      }
+
+      const input = document.createElement('textarea');
+      input.value = text;
+      input.setAttribute('readonly', '');
+      input.style.position = 'fixed';
+      input.style.opacity = '0';
+      document.body.appendChild(input);
+      input.select();
+      document.execCommand('copy');
+      input.remove();
+    };
+
+    emailLinks.forEach((link) => {
+      const email = link.getAttribute('href').replace(/^mailto:/, '').split('?')[0];
+      const visibleText = link.textContent.trim();
+
+      if (!email || !visibleText.includes('@') || link.nextElementSibling?.classList.contains('copy-email-button')) {
+        return;
+      }
+
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'copy-email-button';
+      button.textContent = 'Copy';
+      button.setAttribute('aria-label', `Copy email address ${email}`);
+
+      button.addEventListener('click', async () => {
+        try {
+          await copyText(email);
+          button.textContent = 'Copied';
+          button.classList.add('is-copied');
+          setTimeout(() => {
+            button.textContent = 'Copy';
+            button.classList.remove('is-copied');
+          }, 1800);
+        } catch (error) {
+          button.textContent = 'Failed';
+          setTimeout(() => {
+            button.textContent = 'Copy';
+          }, 1800);
+        }
+      });
+
+      link.insertAdjacentElement('afterend', button);
+    });
+  })();
+</script>
