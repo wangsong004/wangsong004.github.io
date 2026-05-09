@@ -23,6 +23,43 @@ body {
   background-color: rgb(26, 32, 44);
 }
 
+.copy-email-button {
+  margin-left: 0.35rem;
+  padding: 0.12rem 0.42rem;
+  border: 1px solid rgba(52, 73, 94, 0.2);
+  border-radius: 4px;
+  background: rgba(41, 98, 255, 0.06);
+  color: #2f3b4a;
+  cursor: pointer;
+  font-size: 0.78rem;
+  line-height: 1.4;
+  vertical-align: baseline;
+}
+
+.copy-email-button:hover,
+.copy-email-button:focus,
+.copy-email-button.is-copied {
+  border-color: rgba(41, 98, 255, 0.35);
+  background: rgba(41, 98, 255, 0.12);
+}
+
+.dark .copy-email-button {
+  background: rgba(187, 222, 251, 0.1);
+  border-color: rgba(255, 255, 255, 0.16);
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.dark .copy-email-button:hover,
+.dark .copy-email-button:focus,
+.dark .copy-email-button.is-copied {
+  background: rgba(187, 222, 251, 0.18);
+  border-color: rgba(255, 255, 255, 0.28);
+}
+
+.site-updated {
+  margin-bottom: 0.25rem;
+}
+
 .visitor-stats {
   display: flex;
   flex-wrap: wrap;
