@@ -46,10 +46,8 @@ social:
     link: https://space.bilibili.com/610800557
 ---
 
-I am the Director of R&D and co-founder at VoxelDance, where I work on algorithms for geometry processing, computational geometry, and implicit modeling. Before VoxelDance, I spent three years at UnionTech as a Geometry Algorithm Engineer. I received my master's degree in Mechanical Engineering from Nanjing University of Aeronautics and Astronautics in 2016.
+I am the Director of R&D and co-founder at VoxelDance, where I build production geometry algorithms for additive manufacturing and dental workflows. Before VoxelDance, I spent three years at UnionTech as a Geometry Algorithm Engineer, and I earned my master's degree in Mechanical Engineering from Nanjing University of Aeronautics and Astronautics in 2016.
 
-My work centers on triangle-mesh geometry processing. I have worked on mesh simplification, subdivision, remeshing/reconstruction, mesh offsetting and thickening, as well as robust geometric operations such as mesh Boolean operations, model repair, plane cutting, and other production-oriented geometry kernels. I also develop 2D, 2.5D, and 3D nesting algorithms for additive manufacturing, and have explored triangle-mesh to tetrahedral-mesh conversion.
+My core interests are computer graphics geometry processing and computational geometry. I have worked on triangle-mesh simplification, subdivision, remeshing/reconstruction, offsetting and thickening, robust Boolean operations, model repair, plane cutting, 2D/2.5D/3D nesting, and triangle-to-tetrahedral mesh conversion.
 
-Recently, my main interests have been implicit modeling, implicit-to-mesh conversion, and algorithms that bridge mesh representations, volumetric representations, and practical engineering workflows.
-
-Broadly, I am interested in computer graphics geometry processing and computational geometry, and I am open to collaboration or technical conversations in these directions. You can reach me at [wangs@voxeldance.com](mailto:wangs@voxeldance.com).
+Recently, I have been exploring implicit modeling, implicit-to-mesh conversion, and workflows that connect surface meshes, tetrahedral meshes, and volumetric representations. I am open to collaboration and technical conversations in these directions; you can reach me at [wangs@voxeldance.com](mailto:wangs@voxeldance.com).
