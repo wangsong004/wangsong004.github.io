@@ -46,8 +46,8 @@ social:
     link: https://space.bilibili.com/610800557
 ---
 
-I am the Director of R&D and co-founder at VoxelDance, where I build production geometry algorithms for additive manufacturing and dental workflows. Before VoxelDance, I spent three years at UnionTech as a Geometry Algorithm Engineer, and I earned my master's degree in Mechanical Engineering from Nanjing University of Aeronautics and Astronautics in 2016.
+I am the Director of R&D and co-founder at VoxelDance, working at the intersection of computer graphics geometry processing, computational geometry, and additive manufacturing. Before VoxelDance, I spent three years at UnionTech as a Geometry Algorithm Engineer, and I earned my master's degree in Mechanical Engineering from Nanjing University of Aeronautics and Astronautics in 2016.
 
-My core interests are computer graphics geometry processing and computational geometry. I have worked on triangle-mesh simplification, subdivision, remeshing/reconstruction, offsetting and thickening, robust Boolean operations, model repair, plane cutting, 2D/2.5D/3D nesting, and triangle-to-tetrahedral mesh conversion.
+My work focuses on practical geometry algorithms for reliable engineering workflows, especially in mesh processing, nesting, dental applications, and representation conversion. Recently, I have been exploring implicit modeling, implicit-to-mesh conversion, and workflows that connect surface, tetrahedral, and volumetric representations.
 
-Recently, I have been exploring implicit modeling, implicit-to-mesh conversion, and workflows that connect surface meshes, tetrahedral meshes, and volumetric representations. I am open to collaboration and technical conversations in these directions; you can reach me at [wangs@voxeldance.com](mailto:wangs@voxeldance.com).
+I am open to collaboration and technical conversations in these directions; you can reach me at [wangs@voxeldance.com](mailto:wangs@voxeldance.com).
