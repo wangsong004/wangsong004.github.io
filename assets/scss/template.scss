@@ -23,6 +23,26 @@ body {
   background-color: rgb(26, 32, 44);
 }
 
+.visitor-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.5rem;
+  justify-content: center;
+}
+
+.visitor-stats span span {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+}
+
+.visitor-separator {
+  color: rgba(52, 73, 94, 0.35);
+}
+
+.dark .visitor-separator {
+  color: rgba(255, 255, 255, 0.35);
+}
+
 // more rounded cards and larger gap between cards
 .card-simple {
   margin-top: 1.8rem;
