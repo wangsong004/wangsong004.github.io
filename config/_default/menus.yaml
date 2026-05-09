@@ -12,6 +12,6 @@ main:
   - name: Projects
     url: '#portfolio'
     weight: 30
-  - name: Resume
+  - name: About
     url: about/
     weight: 40
