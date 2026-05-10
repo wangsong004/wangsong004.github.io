@@ -20,14 +20,14 @@ design:
   </section>
   <section>
     <h3>Additive Manufacturing</h3>
-    <p>2D, 2.5D, and 3D nesting workflows for SLS and industrial printing, with build-height optimization, slice-area balancing, and part classification.</p>
+    <p>3D model nesting workflows for SLS and industrial printing, with build-height optimization, slice-area balancing, and part classification.</p>
   </section>
   <section>
     <h3>Dental Algorithms</h3>
     <p>Removable Partial Denture (RPD) framework orientation optimization and lattice prop generation, dental crown orientation optimization, and dental crown labeling algorithms.</p>
   </section>
   <section>
-    <h3>Mesh and Volume Workflows</h3>
-    <p>Triangle-to-tetrahedral conversion, mesh-volume data exchange, and practical geometry tools that carry research ideas into engineering products.</p>
+    <h3>Implicit Modeling</h3>
+    <p>Implicit-to-triangle-mesh conversion, direct slicing on implicit models, implicit Boolean operations, implicit offsetting, and other geometry operation algorithms.</p>
   </section>
 </div>
