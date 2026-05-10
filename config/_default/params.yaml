@@ -18,7 +18,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: 'VoxelDance'
-    description: 'Song Wang is an R&D Director and geometry algorithm engineer focused on mesh processing, additive manufacturing, targeted dental algorithms, nesting, and implicit modeling.'
+    description: 'Song Wang is an R&D Director and geometry algorithm engineer focused on robust mesh processing, additive manufacturing, 3D model nesting, tetrahedral conversion, and implicit modeling.'
     twitter: ''
   analytics:
     google_analytics: ''
