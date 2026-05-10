@@ -1,6 +1,6 @@
 ---
-title: Advanced SLS 3D Printing Nesting
-summary: Build-preparation algorithms for dense, reliable SLS nesting with height reduction, slice-area balancing, and part classification.
+title: Advanced SLS 3D Model Nesting
+summary: Build-preparation algorithms for dense, reliable SLS 3D model nesting with height reduction, slice-area balancing, and part classification.
 tags:
   - Nest
   - GP
