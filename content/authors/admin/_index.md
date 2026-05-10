@@ -14,7 +14,7 @@ organizations:
     url: https://voxeldance.com/
 
 # Short bio displayed in author summaries.
-bio: Computer graphics and computational geometry engineer focused on robust mesh processing, nesting, mesh/tetrahedral algorithms, and implicit modeling.
+bio: Computer graphics and computational geometry engineer focused on robust mesh processing, 3D model nesting, mesh/tetrahedral algorithms, and implicit modeling.
 
 email: "wangs@voxeldance.com"
 
@@ -48,6 +48,6 @@ social:
 
 I am the Director of R&D and co-founder at VoxelDance, working at the intersection of computer graphics geometry processing, computational geometry, and additive manufacturing. Before VoxelDance, I spent three years at UnionTech as a Geometry Algorithm Engineer, and I earned my master's degree in Mechanical Engineering from Nanjing University of Aeronautics and Astronautics in 2016.
 
-My work focuses on practical geometry algorithms for reliable engineering workflows, especially in mesh processing, nesting, dental applications, and representation conversion. Recently, I have been exploring implicit modeling, implicit-to-mesh conversion, and workflows that connect surface, tetrahedral, and volumetric representations.
+My work focuses on practical geometry algorithms for reliable engineering workflows, especially in mesh processing, 3D model nesting, mesh/tetrahedral algorithms, and representation conversion. Recently, I have been exploring implicit modeling, implicit-to-mesh conversion, and workflows that connect surface, tetrahedral, and volumetric representations.
 
 I am open to collaboration and technical conversations in these directions; you can reach me at [wangs@voxeldance.com](mailto:wangs@voxeldance.com).
