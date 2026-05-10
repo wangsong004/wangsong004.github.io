@@ -270,3 +270,23 @@ ul.network-icon .big-icon {
   border-color: rgba(255, 255, 255, 0.14);
   color: rgba(255, 255, 255, 0.88);
 }
+
+.wg-experience .card-body .d-flex img[src*="/media/icons/brands/org-"] {
+  width: 112px !important;
+  height: 56px !important;
+  max-width: 112px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+@media (max-width: 575px) {
+  .wg-experience .card-body .d-flex {
+    align-items: flex-start;
+  }
+
+  .wg-experience .card-body .d-flex img[src*="/media/icons/brands/org-"] {
+    width: 96px !important;
+    height: 48px !important;
+    max-width: 96px;
+  }
+}
