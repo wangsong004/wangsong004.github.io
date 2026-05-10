@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" role="img" aria-label="VoxelDance">
+  <defs>
+    <linearGradient id="vd-bg" x1="8" y1="6" x2="50" y2="52" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#123B70"/>
+    </linearGradient>
+    <linearGradient id="vd-accent" x1="15" y1="11" x2="43" y2="38" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="52" height="52" rx="14" fill="url(#vd-bg)"/>
+  <path d="M28 9 43 17.5v17L28 43 13 34.5v-17L28 9Z" fill="none" stroke="url(#vd-accent)" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M13 17.5 28 26l15-8.5M28 26v17" fill="none" stroke="#BAE6FD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".9"/>
+  <path d="M20 18.5 28 23l8-4.5" fill="none" stroke="#67E8F9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+  <text x="28" y="49" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="8" font-weight="700" fill="#E0F2FE" letter-spacing=".7">VD</text>
+</svg>
