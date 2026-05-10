@@ -14,7 +14,7 @@ links:
 
 Implicit-to-mesh conversion is a core step for bringing implicit modeling results into practical engineering workflows. The goal is to generate clean triangular meshes from field-based geometry while preserving surface detail, sharp transitions, and stable topology for later manufacturing, simulation, or geometry-processing operations.
 
-![Implicit-to-mesh conversion screenshot](https://i0.hdslb.com/bfs/archive/da4aae26faa19579cf70ab296ba69becda831e5b.jpg "Implicit-to-mesh conversion")
+![Implicit-to-mesh conversion screenshot](featured.jpg "Implicit-to-mesh conversion")
 
 This project demonstrates a node-based workflow for converting implicit structures into triangular mesh data. The example combines field construction, BRep/FRep conversion, sampling, and triangulation to produce a detailed mesh result from an implicit model.
 

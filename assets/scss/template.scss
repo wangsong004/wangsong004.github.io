@@ -310,3 +310,9 @@ ul.network-icon .big-icon {
 .dark .project-card:has(a[href="/project/implicit-to-mesh/"]) .card::before {
   border-bottom-color: rgba(255, 255, 255, 0.12);
 }
+
+// The project now has a real raster featured image, so disable the older CSS thumbnail shim.
+.project-card:has(a[href="/project/implicit-to-mesh/"]) .card::before {
+  content: none;
+  display: none;
+}
