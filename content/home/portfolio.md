@@ -11,7 +11,7 @@ headless: true
 weight: 20
 
 title: 'Selected Projects'
-subtitle: 'Representative projects across nesting, targeted dental algorithms, and production geometry processing.'
+subtitle: 'Representative projects across 3D model nesting, targeted dental algorithms, and production geometry processing.'
 
 content:
   # Page type to display. E.g. project.
@@ -28,7 +28,7 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Nesting
+    - name: 3D Model Nesting
       tag: Nest
     - name: Geometry Processing
       tag: GP
