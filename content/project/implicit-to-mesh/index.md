@@ -5,6 +5,10 @@ tags:
   - Implicit
   - GP
 date: 2026-04-25
+image:
+  filename: featured.svg
+  focal_point: Center
+  alt_text: Implicit-to-mesh conversion workflow and triangular mesh result
 links:
   - icon: bilibili
     icon_pack: fab
