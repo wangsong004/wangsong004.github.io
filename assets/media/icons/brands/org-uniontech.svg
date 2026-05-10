@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" role="img" aria-label="UnionTech">
+  <defs>
+    <linearGradient id="ut-bg" x1="6" y1="4" x2="52" y2="54" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="1" stop-color="#312E81"/>
+    </linearGradient>
+    <linearGradient id="ut-accent" x1="13" y1="16" x2="43" y2="39" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F472B6"/>
+      <stop offset="1" stop-color="#60A5FA"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="52" height="52" rx="14" fill="url(#ut-bg)"/>
+  <path d="M15 35.5h26M18 29.5h20M21 23.5h14" fill="none" stroke="url(#ut-accent)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M15 39.5h26" fill="none" stroke="#C4B5FD" stroke-width="2" stroke-linecap="round" opacity=".85"/>
+  <circle cx="39" cy="18" r="4" fill="#93C5FD"/>
+  <text x="28" y="49" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="8" font-weight="700" fill="#EEF2FF" letter-spacing=".7">UT</text>
+</svg>
