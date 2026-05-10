@@ -14,7 +14,7 @@ experience:
   - title: Master of Mechanical Engineering
     company: Nanjing University of Aeronautics and Astronautics
     company_url: https://www.nuaa.edu.cn/
-    company_logo: org-x
+    company_logo: org-nuaa
     location: Nanjing
     date_start: '2013-09-01'
     date_end: '2016-04-01'
@@ -24,7 +24,7 @@ experience:
   - title: Bachelor of Mechanical Engineering
     company: Anhui University of Science and Technology
     company_url: https://www.aust.edu.cn/
-    company_logo: org-x
+    company_logo: org-aust
     location: Huainan
     date_start: '2009-09-01'
     date_end: '2013-06-30'
