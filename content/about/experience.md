@@ -14,7 +14,7 @@ experience:
   - title: R&D Director
     company: VoxelDance
     company_url: https://voxeldance.com/
-    company_logo: org-gc
+    company_logo: org-voxeldance
     location: Shanghai
     date_start: '2019-04-01'
     date_end: ''
@@ -29,7 +29,7 @@ experience:
   - title: Geometry Algorithm Engineer
     company: UnionTech
     company_url: https://www.uniontech3d.com/
-    company_logo: org-x
+    company_logo: org-uniontech
     location: Shanghai
     date_start: '2016-04-01'
     date_end: '2019-03-31'
