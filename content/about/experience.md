@@ -19,12 +19,12 @@ experience:
     date_start: '2019-04-01'
     date_end: ''
     description: |2-
-        Lead R&D work for production geometry algorithms used in additive manufacturing and targeted dental workflows.
+        Lead R&D work for production geometry algorithms used in additive manufacturing, 3D model nesting, and implicit modeling workflows.
 
-        * Built and improved mesh repair, Boolean, offset, thickening, remeshing, and simplification workflows.
-        * Developed 2D, 2.5D, and 3D nesting algorithms for industrial printing preparation.
-        * Developed targeted dental algorithms for Removable Partial Denture (RPD) framework orientation, dental crown orientation, Removable Partial Denture (RPD) framework lattice prop generation, and dental crown labeling.
-        * Explored implicit modeling and triangle-to-tetrahedral mesh conversion for next-generation geometry workflows.
+        * Built and improved mesh repair, Boolean, mesh offsetting, thickening, remeshing, and simplification workflows.
+        * Developed 2D, 2.5D, and 3D model nesting algorithms for industrial printing preparation.
+        * Developed geometry automation algorithms for orientation, support/lattice generation, and labeling workflows.
+        * Explored implicit-to-triangle-mesh conversion, direct slicing on implicit models, implicit Boolean operations, and implicit offsetting.
 
   - title: Geometry Algorithm Engineer
     company: UnionTech
