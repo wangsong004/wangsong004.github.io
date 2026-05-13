@@ -1,0 +1,37 @@
+<section id="life-calendar-tool" class="life-tool" aria-label="Life Calendar">
+  <div class="life-tool__header">
+    <p class="life-tool__eyebrow">Small Tool</p>
+    <p class="life-tool__lead">A compact week-by-week map of time.</p>
+  </div>
+
+  <div class="life-tool__panel">
+    <div class="life-tool__controls">
+      <div class="life-tool__field">
+        <label for="life-birthday">Birthday</label>
+        <input id="life-birthday" name="life-birthday" type="date" value="1990-01-01">
+      </div>
+
+      <div class="life-tool__field life-tool__field--short">
+        <label for="life-years">Years</label>
+        <input id="life-years" name="life-years" type="number" min="1" max="120" value="85">
+      </div>
+
+      <p id="life-summary" class="life-tool__summary" aria-live="polite">Enter your birthday to draw the calendar.</p>
+    </div>
+
+    <div class="life-tool__legend" aria-hidden="true">
+      <span><i class="life-week life-week--spent"></i>Past weeks</span>
+      <span><i class="life-week life-week--current"></i>This week</span>
+      <span><i class="life-week life-week--future"></i>Future weeks</span>
+    </div>
+
+    <div class="life-calendar-wrap">
+      <div id="life-calendar-grid" class="life-calendar" aria-hidden="true"></div>
+    </div>
+  </div>
+
+  <p class="life-tool__credit">
+    Inspired by <a href="https://life-is-short.ad-si.com/">Life Is Short</a> by
+    <a href="https://github.com/adius/life-is-short">Adrian Sieber</a>.
+  </p>
+</section>

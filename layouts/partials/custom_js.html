@@ -1,3 +1,289 @@
+<style>
+  .tool-card-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
+  }
+
+  .tool-card {
+    display: block;
+    padding: 1.05rem 1.15rem;
+    border: 1px solid rgba(52, 73, 94, 0.12);
+    border-radius: 8px;
+    background: #fff;
+    color: inherit;
+    text-decoration: none;
+    transition: border-color 160ms ease, transform 160ms ease, box-shadow 160ms ease;
+  }
+
+  .tool-card:hover,
+  .tool-card:focus {
+    border-color: rgba(41, 98, 255, 0.32);
+    box-shadow: 0 14px 36px rgba(30, 41, 59, 0.08);
+    color: inherit;
+    text-decoration: none;
+    transform: translateY(-2px);
+  }
+
+  .tool-card__eyebrow {
+    display: block;
+    margin-bottom: 0.35rem;
+    color: #5a6b7f;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: uppercase;
+  }
+
+  .tool-card h3 {
+    margin: 0 0 0.4rem;
+    font-size: 1.05rem;
+  }
+
+  .tool-card p {
+    margin: 0 0 0.65rem;
+    color: #4b5b6d;
+    font-size: 0.95rem;
+    line-height: 1.65;
+  }
+
+  .tool-card__action {
+    color: #1d5fd0;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
+  .dark .tool-card {
+    background: rgb(31, 39, 51);
+    border-color: rgba(255, 255, 255, 0.12);
+  }
+
+  .dark .tool-card:hover,
+  .dark .tool-card:focus {
+    border-color: rgba(187, 222, 251, 0.32);
+    box-shadow: none;
+  }
+
+  .dark .tool-card__eyebrow,
+  .dark .tool-card p {
+    color: rgba(255, 255, 255, 0.72);
+  }
+
+  .dark .tool-card__action {
+    color: #bbdefb;
+  }
+
+  .life-tool {
+    margin: 0 auto;
+    max-width: 860px;
+  }
+
+  .life-tool__header {
+    margin: 0 0 0.75rem;
+    max-width: 640px;
+  }
+
+  .life-tool__eyebrow {
+    margin: 0 0 0.35rem;
+    color: #5a6b7f;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: uppercase;
+  }
+
+  .life-tool__lead {
+    margin: 0;
+    color: #4b5b6d;
+    font-size: 0.95rem;
+    line-height: 1.55;
+  }
+
+  .life-tool__panel {
+    padding: 0.95rem;
+    border: 1px solid rgba(52, 73, 94, 0.12);
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 16px 36px rgba(30, 41, 59, 0.055);
+  }
+
+  .life-tool__controls {
+    display: grid;
+    grid-template-columns: minmax(10rem, 12rem) minmax(4.75rem, 6rem) minmax(0, 1fr);
+    gap: 0.7rem;
+    align-items: end;
+  }
+
+  .life-tool__field {
+    display: grid;
+    gap: 0.28rem;
+  }
+
+  .life-tool__controls label {
+    margin: 0;
+    color: #2f3b4a;
+    font-size: 0.78rem;
+    font-weight: 700;
+  }
+
+  .life-tool__controls input {
+    min-height: 2.15rem;
+    width: 100%;
+    padding: 0.35rem 0.55rem;
+    border: 1px solid rgba(52, 73, 94, 0.18);
+    border-radius: 6px;
+    background: #fff;
+    color: #2f3b4a;
+    font: inherit;
+    font-size: 0.9rem;
+  }
+
+  .life-tool__summary {
+    margin: 0;
+    color: #2f3b4a;
+    font-size: 0.85rem;
+    font-variant-numeric: tabular-nums;
+    line-height: 1.5;
+    text-align: right;
+  }
+
+  .life-tool__legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.75rem;
+    justify-content: flex-end;
+    margin: 0.75rem 0 0.55rem;
+    color: #4b5b6d;
+    font-size: 0.8rem;
+  }
+
+  .life-tool__legend span {
+    display: inline-flex;
+    gap: 0.35rem;
+    align-items: center;
+  }
+
+  .life-calendar-wrap {
+    overflow-x: auto;
+    padding: 0.2rem 0 0.1rem;
+  }
+
+  .life-calendar {
+    display: grid;
+    min-width: 600px;
+    gap: 1px;
+  }
+
+  .life-calendar__row {
+    display: grid;
+    grid-template-columns: 1.85rem minmax(0, 1fr);
+    gap: 0.28rem;
+    align-items: center;
+  }
+
+  .life-calendar__age {
+    color: #6c7a89;
+    font-size: 0.66rem;
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+  }
+
+  .life-calendar__weeks {
+    display: grid;
+    grid-template-columns: repeat(52, minmax(0, 1fr));
+    gap: 1px;
+  }
+
+  .life-week {
+    display: block;
+    aspect-ratio: 1 / 1;
+    min-width: 4px;
+    border-radius: 1px;
+  }
+
+  .life-week--spent {
+    background: #2f6f73;
+  }
+
+  .life-week--current {
+    background: #d99a26;
+    box-shadow: 0 0 0 2px rgba(217, 154, 38, 0.22);
+  }
+
+  .life-week--future {
+    background: #e7edf3;
+  }
+
+  .life-tool__credit {
+    margin: 0.65rem 0 0;
+    color: #5a6b7f;
+    font-size: 0.78rem;
+    text-align: center;
+  }
+
+  .dark .life-tool__eyebrow,
+  .dark .life-tool__lead,
+  .dark .life-tool__legend,
+  .dark .life-tool__credit,
+  .dark .life-calendar__age {
+    color: rgba(255, 255, 255, 0.72);
+  }
+
+  .dark .life-tool__panel {
+    background: rgb(31, 39, 51);
+    border-color: rgba(255, 255, 255, 0.12);
+    box-shadow: none;
+  }
+
+  .dark .life-tool__controls label,
+  .dark .life-tool__summary {
+    color: rgba(255, 255, 255, 0.88);
+  }
+
+  .dark .life-tool__controls input {
+    background: rgb(26, 32, 44);
+    border-color: rgba(255, 255, 255, 0.16);
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .dark .life-week--spent {
+    background: #5fb4aa;
+  }
+
+  .dark .life-week--current {
+    background: #f0b84d;
+    box-shadow: 0 0 0 2px rgba(240, 184, 77, 0.22);
+  }
+
+  .dark .life-week--future {
+    background: rgba(255, 255, 255, 0.12);
+  }
+
+  @media (max-width: 767px) {
+    .life-tool__panel {
+      padding: 0.85rem;
+    }
+
+    .life-tool__controls {
+      grid-template-columns: 1fr;
+      gap: 0.4rem;
+    }
+
+    .life-tool__controls input {
+      margin-bottom: 0.35rem;
+    }
+
+    .life-tool__summary,
+    .life-tool__legend {
+      justify-content: flex-start;
+      text-align: left;
+    }
+
+    .life-calendar {
+      min-width: 560px;
+    }
+  }
+</style>
 <script defer src="https://api.tssl.cc/busuanzi/3.6.9/busuanzi.min.js"></script>
 <script>
   (() => {
@@ -53,5 +339,120 @@
 
       link.insertAdjacentElement('afterend', button);
     });
+  })();
+</script>
+<script>
+  (() => {
+    const tool = document.getElementById('life-calendar-tool');
+
+    if (!tool) {
+      return;
+    }
+
+    const birthdayInput = document.getElementById('life-birthday');
+    const yearsInput = document.getElementById('life-years');
+    const summary = document.getElementById('life-summary');
+    const grid = document.getElementById('life-calendar-grid');
+    const weekMs = 7 * 24 * 60 * 60 * 1000;
+    const storedBirthday = localStorage.getItem('lifeCalendarBirthday');
+    const storedYears = localStorage.getItem('lifeCalendarYears');
+    const formatter = new Intl.NumberFormat('en-US');
+
+    const parseDateInput = (value) => {
+      const parts = value.split('-').map(Number);
+
+      if (parts.length !== 3 || parts.some(Number.isNaN)) {
+        return null;
+      }
+
+      return new Date(parts[0], parts[1] - 1, parts[2]);
+    };
+
+    const getAge = (birthday, today) => {
+      let age = today.getFullYear() - birthday.getFullYear();
+      const hasBirthdayPassed =
+        today.getMonth() > birthday.getMonth() ||
+        (today.getMonth() === birthday.getMonth() && today.getDate() >= birthday.getDate());
+
+      if (!hasBirthdayPassed) {
+        age -= 1;
+      }
+
+      return Math.max(0, age);
+    };
+
+    const render = () => {
+      const birthday = parseDateInput(birthdayInput.value);
+      const years = Math.max(1, Math.min(120, Number.parseInt(yearsInput.value, 10) || 85));
+      const totalWeeks = years * 52;
+      const today = new Date();
+
+      grid.replaceChildren();
+      yearsInput.value = years;
+
+      if (!birthday || birthday > today) {
+        summary.textContent = 'Choose a birthday to draw the calendar.';
+        return;
+      }
+
+      const livedWeeks = Math.max(0, Math.floor((today - birthday) / weekMs));
+      const spentWeeks = Math.min(livedWeeks, totalWeeks);
+      const currentWeek = spentWeeks < totalWeeks ? spentWeeks : -1;
+      const futureWeeks = Math.max(0, totalWeeks - spentWeeks - (currentWeek >= 0 ? 1 : 0));
+      const age = getAge(birthday, today);
+
+      summary.textContent =
+        `${formatter.format(livedWeeks)} weeks lived | age ${age} | ` +
+        `${formatter.format(futureWeeks)} weeks ahead`;
+
+      const fragment = document.createDocumentFragment();
+
+      for (let year = 0; year < years; year += 1) {
+        const row = document.createElement('div');
+        row.className = 'life-calendar__row';
+
+        const label = document.createElement('span');
+        label.className = 'life-calendar__age';
+        label.textContent = year % 10 === 0 || year === years - 1 ? year : '';
+
+        const weeks = document.createElement('div');
+        weeks.className = 'life-calendar__weeks';
+
+        for (let week = 0; week < 52; week += 1) {
+          const index = year * 52 + week;
+          const cell = document.createElement('span');
+          cell.className = 'life-week';
+
+          if (index < spentWeeks) {
+            cell.classList.add('life-week--spent');
+          } else if (index === currentWeek) {
+            cell.classList.add('life-week--current');
+          } else {
+            cell.classList.add('life-week--future');
+          }
+
+          weeks.appendChild(cell);
+        }
+
+        row.append(label, weeks);
+        fragment.appendChild(row);
+      }
+
+      grid.appendChild(fragment);
+      localStorage.setItem('lifeCalendarBirthday', birthdayInput.value);
+      localStorage.setItem('lifeCalendarYears', String(years));
+    };
+
+    if (storedBirthday) {
+      birthdayInput.value = storedBirthday;
+    }
+
+    if (storedYears) {
+      yearsInput.value = storedYears;
+    }
+
+    birthdayInput.addEventListener('input', render);
+    yearsInput.addEventListener('input', render);
+    render();
   })();
 </script>
