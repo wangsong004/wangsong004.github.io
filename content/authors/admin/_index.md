@@ -44,6 +44,9 @@ social:
   - icon: bilibili
     icon_pack: fab
     link: https://space.bilibili.com/610800557
+  - icon: xiaohongshu
+    icon_pack: custom
+    link: https://www.xiaohongshu.com/user/profile/6808597f00000000180206b5
 ---
 
 I am the Director of R&D and co-founder at VoxelDance, working at the intersection of computer graphics geometry processing, computational geometry, and additive manufacturing. Before VoxelDance, I spent three years at UnionTech as a Geometry Algorithm Engineer, and I earned my master's degree in Mechanical Engineering from Nanjing University of Aeronautics and Astronautics in 2016.
