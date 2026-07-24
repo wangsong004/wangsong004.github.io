@@ -12,6 +12,9 @@ main:
   - name: Projects
     url: '#portfolio'
     weight: 30
+  - name: Implicit Modeling
+    url: implicit-modeling/
+    weight: 32
   - name: Tools
     url: '#tools'
     weight: 35

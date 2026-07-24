@@ -316,3 +316,69 @@ ul.network-icon .big-icon {
   content: none;
   display: none;
 }
+
+.implicit-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.implicit-gallery-item {
+  display: block;
+  overflow: hidden;
+  border: 1px solid rgba(52, 73, 94, 0.12);
+  border-radius: 8px;
+  background: #fff;
+  color: inherit;
+  text-decoration: none;
+}
+
+.implicit-gallery-item:hover,
+.implicit-gallery-item:focus {
+  border-color: rgba(41, 98, 255, 0.35);
+  text-decoration: none;
+}
+
+.implicit-gallery-item img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.implicit-gallery-item span {
+  display: block;
+  padding: 0.85rem 0.95rem 0.95rem;
+}
+
+.implicit-gallery-item strong,
+.implicit-gallery-item em {
+  display: block;
+}
+
+.implicit-gallery-item strong {
+  margin-bottom: 0.25rem;
+  font-size: 1rem;
+}
+
+.implicit-gallery-item em {
+  color: rgba(47, 59, 74, 0.72);
+  font-size: 0.9rem;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+.dark .implicit-gallery-item {
+  background: rgb(31, 39, 51);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.dark .implicit-gallery-item:hover,
+.dark .implicit-gallery-item:focus {
+  border-color: rgba(187, 222, 251, 0.34);
+}
+
+.dark .implicit-gallery-item em {
+  color: rgba(255, 255, 255, 0.68);
+}
